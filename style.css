@@ -125,3 +125,14 @@ footer {
 .cta-btn:hover {
     background: #e5e7eb;
 }
+
+section p {
+    max-width: 700px;
+    font-size: 1.05rem;
+    color: #4b5563;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
