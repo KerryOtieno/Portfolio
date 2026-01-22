@@ -89,3 +89,38 @@ footer {
     margin-bottom: 10px;
     color: #111827;
 }
+
+/* Call To Action */
+.cta {
+    background: linear-gradient(135deg, #1f2933,#111827);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    max-width: 600px;
+    color: #d1d5db;
+    margin: 0 auto 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: white;
+    color: #111827;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.cta-btn:hover {
+    background: #e5e7eb;
+}
