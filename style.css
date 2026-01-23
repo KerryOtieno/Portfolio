@@ -136,3 +136,15 @@ section p {
 html {
     scroll-behavior: smooth;
 }
+
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
