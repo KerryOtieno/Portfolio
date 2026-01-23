@@ -112,14 +112,23 @@ section h2 {
 
 /* Contact */
 .contact {
-    .contact {
+    width: 100%;
+    max-width: none;
+    margin:0;
     background: #1f2933;
     color: white;
     text-align: center;
     padding: 100px 20px;
 }
 
+.contact h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
 .contact p {
     margin-bottom: 30px;
     color: #d1d5db;
 }
+
