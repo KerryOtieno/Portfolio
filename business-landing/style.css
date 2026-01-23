@@ -1,1 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero */
+.hero {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.btn {
+    background: white;
+    color: #111827;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Services */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background: #f3f4f6;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Why */
+.why-list {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.why-list li {
+    margin-bottom: 15px;
+}
+
+/* Contact */
+.contact {
+    background: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
