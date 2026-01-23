@@ -56,12 +56,20 @@ body {
 }
 
 .btn {
-    background: white;
+    display: inline-block;
+    background: #ffffff;
     color: #111827;
-    padding: 12px 30px;
+    padding: 14px 36px;
     text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: #e5e7eb;
+    transform: translateY(-2px);
 }
 
 /* Sections */
@@ -104,8 +112,14 @@ section h2 {
 
 /* Contact */
 .contact {
+    .contact {
     background: #1f2933;
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 100px 20px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+    color: #d1d5db;
 }
