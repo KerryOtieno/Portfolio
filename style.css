@@ -148,3 +148,12 @@ html {
 .project-link:hover {
     text-decoration: underline;
 }
+
+.profile-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #facc15;
+  margin-top: 20px;
+}
