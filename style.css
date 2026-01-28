@@ -161,3 +161,26 @@ html {
     object-position: top center;
     box-shadow:0 8px 25px rgba(0, 0, 0, 0.4)
 }
+
+.hero-buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.btn.primary {
+  background: #f4a261;
+  color: #000;
+}
+
+.btn.secondary {
+  border: 2px solid #f4a261;
+  color: #f4a261;
+}
