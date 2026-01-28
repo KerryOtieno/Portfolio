@@ -279,5 +279,46 @@ html {
     width: 160px;
     height: 160px;
   }
+
+    .contact {
+  background: #f8fafc;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.contact-intro {
+  max-width: 500px;
+  margin: 0 auto 32px;
+  color: #475569;
+}
+
+.contact-details {
+  display: inline-block;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-details p {
+  margin: 12px 0;
+  font-size: 1.05rem;
+}
+
+.contact-details a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
 }
 
