@@ -254,3 +254,19 @@ html {
   color: #fff;
   border-radius: 20px;
 }
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+
+  .hero img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
