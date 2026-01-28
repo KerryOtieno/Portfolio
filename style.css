@@ -236,3 +236,17 @@ html {
   border: 2px solid #f4a261;
   color: #f4a261;
 }
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.tags span {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: #f4a261;
+  color: #fff;
+  border-radius: 20px;
+}
