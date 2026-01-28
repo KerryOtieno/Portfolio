@@ -238,9 +238,18 @@ html {
   color: #000;
 }
 
-.btn.secondary {
+.btn-outline {
+  padding: 12px 22px;
   border: 2px solid #f4a261;
+  border-radius: 30px;
   color: #f4a261;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-outline:hover {
+  background: #f4a261;
+  color: #0f172a;
 }
 
 .tags {
