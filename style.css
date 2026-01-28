@@ -122,6 +122,15 @@ footer {
   border-bottom: 2px solid #f4a261;
 }
 
+.project-card::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #f4a261;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
 
 /* Call To Action */
 .cta {
