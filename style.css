@@ -32,6 +32,22 @@ header p {
     margin-top: 10px;
 }
 
+header {
+  animation: fadeUp 0.9s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /* Sections */
 section {
     max-width: 900px;
