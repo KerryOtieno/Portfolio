@@ -322,12 +322,13 @@ html {
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: transform 0.25s ease, background 0.2s ease;
 }
 
 .contact-btn:hover {
   background: #e76f51;
   transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 
