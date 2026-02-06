@@ -192,11 +192,13 @@ footer {
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.2s ease;
+    transition: background 0.25s ease;
 }
 
 .cta-btn:hover {
     background: #e5e7eb;
+    transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 section p {
