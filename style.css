@@ -266,20 +266,6 @@ html {
   border-radius: 20px;
 }
 
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .project-card {
-    padding: 18px;
-  }
-
-  .hero img {
-    width: 160px;
-    height: 160px;
-  }
-
  /* Contact Section */
 .contact {
   padding: 80px 20px;
@@ -327,5 +313,20 @@ html {
   background: #e76f51;
   transform: translateY(-2px);
 }
-}
+
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+
+  .hero img {
+    width: 160px;
+    height: 160px;
+  }
+
 
