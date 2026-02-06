@@ -47,7 +47,24 @@ header {
   }
 }
 
+.btn primary {
+    transition: all 0.25s ease;
+}
 
+.btn primary: hover {
+    transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bgn outline {
+transition: all 0.25s ease;
+}
+
+.btn outline: hover {
+    transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+    
 /* Sections */
 section {
     max-width: 900px;
