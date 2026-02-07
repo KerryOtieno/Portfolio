@@ -70,6 +70,30 @@ header {
   display: inline-block;
 }
 
+.btn.primary {
+  background: #f4a261;
+  color: #ffffff;
+}
+
+.btn.primary:hover {
+  background: #e76f51;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.btn.outline {
+  border: 2px solid #f4a261;
+  color: #f4a261;
+  background: transparent;
+}
+
+.btn.outline:hover {
+  background: #f4a261;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+
 
 /* Sections */
 section {
@@ -258,41 +282,7 @@ html {
     box-shadow:0 8px 25px rgba(0, 0, 0, 0.4)
 }
 
-.hero-buttons {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  margin-top: 24px;
-}
 
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
-  margin: 0 8px;
-}
-
-.btn.primary {
-  background: #f4a261;
-  color: #000;
-}
-
-.btn-outline {
-  padding: 14px 28px;
-  border: 2px solid #f4a261;
-  border-radius: 30px;
-  color: #f4a261;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.btn-outline:hover {
-  background: #f4a261;
-  color: #0f172a;
-}
 .tags {
   display: flex;
   gap: 8px;
